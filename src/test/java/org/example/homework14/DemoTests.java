@@ -11,6 +11,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -24,9 +25,9 @@ public class DemoTests {
     private static final By RAW_DELETE_3_BUTTON = By.id("delete-record-3");
     private static final By NO_TABLE_DATA_ITEM = By.className("rt-noData");
     private static final By CHECK_BOX_MENU_ITEM = By.id("item-1");
-    private static final By HOME_TOGGLE = By.xpath("//*[@id=\"tree-node\"]/ol/li/span/button");
-    private static final By DOWNLOADS_TOGGLE = By.xpath("//*[@id=\"tree-node\"]/ol/li/ol/li[3]/span/button");
-    private static final By EXCEL_CHECKBOX = By.xpath("//*[@id=\"tree-node\"]/ol/li/ol/li[3]/ol/li[2]/span/label/span[1]");
+    private static final By HOME_TOGGLE = By.className("rct-collapse");
+    private static final By DOWNLOADS_TOGGLE = By.xpath("//label[@for='tree-node-downloads']/preceding-sibling::button");
+    private static final By EXCEL_CHECKBOX = By.xpath("//label[@for='tree-node-excelFile']");
     private static final By RESULT_TEXT = By.className("text-success");
     private static final By LINKS_MENU_ITEM = By.id("item-5");
     private static final By RADIO_BUTTON_MENU_ITEM = By.id("item-2");
@@ -47,12 +48,7 @@ public class DemoTests {
     private static final String AGE = "25";
     private static final String SALARY = "5000";
     private static final String DEPARTMENT = "QA";
-    private static final By NAME_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[1]");
-    private static final By SURNAME_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[2]");
-    private static final By EMAIL_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[4]");
-    private static final By AGE_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[3]");
-    private static final By SALARY_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[5]");
-    private static final By DEPARTAMENT_RAW = By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[6]");
+    private static final By RAW_LIST = (By.className("rt-tr"));
 
     @Test
     @DisplayName("Checks removing of all data in demo table")
@@ -105,26 +101,17 @@ public class DemoTests {
         WebElement submitButton = driver.findElement(SUBMIT_BUTTON);
         submitButton.click();
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        wait.until(webDriver -> true);
 
-        WebElement firstNameRaw = driver.findElement(NAME_RAW);
-        assertTrue(firstNameRaw.getText().contains(FIRST_NAME));
+        var rawList = driver.findElements(RAW_LIST);
+        List<String> testRaw = Collections.singletonList(rawList.get(4).getText());
 
-        WebElement lastnameRaw = driver.findElement(SURNAME_RAW);
-        assertTrue(lastnameRaw.getText().contains(LAST_NAME));
-
-        WebElement ageRaw = driver.findElement(AGE_RAW);
-        assertTrue(ageRaw.getText().contains(AGE));
-
-        WebElement salaryRaw = driver.findElement(SALARY_RAW);
-        assertTrue(salaryRaw.getText().contains(SALARY));
-
-        WebElement departamentRaw = driver.findElement(DEPARTAMENT_RAW);
-        assertTrue(departamentRaw.getText().contains(DEPARTMENT));
+        assertEquals(testRaw.get(0), FIRST_NAME);
+        assertEquals(testRaw.get(1), LAST_NAME);
+        assertEquals(testRaw.get(2), AGE);
+        assertEquals(testRaw.get(3), SALARY);
+        assertEquals(testRaw.get(4), DEPARTMENT);
     }
 
     @Test
