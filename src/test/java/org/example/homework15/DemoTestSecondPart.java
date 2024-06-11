@@ -16,7 +16,7 @@ public class DemoTestSecondPart {
     WebDriver driver;
     JavascriptExecutor js;
     private static final By ALERTS_CARD = By.xpath("//div[@class='card-body']/h5[text()='Alerts, Frame & Windows']");
-    private static final By ALERTS_MENU = By.xpath("//div[@class='element-list collapse show']/ul/li[2]");
+    private static final By ALERTS_MENU = By.xpath("//span[@class='text' and text()='Alerts']");
     private static final By TIMER_ALERT_BUTTON = By.id("timerAlertButton");
     private static final String POPUP_MESSAGE = "This alert appeared after 5 seconds";
     private static final By CONFIRM_BUTTON = By.id("confirmButton");
