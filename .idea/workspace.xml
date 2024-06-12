@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44ff967-54a0-4be0-a9b7-185014b42dc8" name="Changes" comment="fix homework #15">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a44ff967-54a0-4be0-a9b7-185014b42dc8" name="Changes" comment="change git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,35 +32,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SliderTest.executor": "Run",
-    "JUnit.DemoQaTest.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkConfirmBox.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkEnterTextOnPopup.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkMenu.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkMenuHover.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkModalExtinction.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkPopUpAppearTime.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkPopupClosing.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkPopupExtinction.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkPromptBox.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkSlider.executor": "Run",
-    "JUnit.DemoTestSecondPart.checkopupClosing.executor": "Run",
-    "JUnit.DemoTestSecondPart.checksmth.executor": "Run",
-    "JUnit.DemoTestSecondPart.executor": "Run",
-    "JUnit.DemoTestSecondPart.testSlider.executor": "Run",
-    "JUnit.DemoTests.checkAddTableData.executor": "Run",
-    "JUnit.DemoTests.checkExelFileSelection.executor": "Run",
-    "JUnit.DemoTests.checkRadioButtons.executor": "Run",
-    "JUnit.DemoTests.checkRedirect.executor": "Run",
-    "JUnit.DemoTests.executor": "Run",
-    "JUnit.DemoTestsSecondPart.checkPopUpAppearTime.executor": "Run",
-    "JUnit.SliderTest.testSlider.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SliderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoQaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkConfirmBox.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkEnterTextOnPopup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkMenu.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkMenuHover.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkModalExtinction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkPopUpAppearTime.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkPopupClosing.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkPopupExtinction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkPromptBox.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkSlider.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checkopupClosing.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.checksmth.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestSecondPart.testSlider.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTests.checkAddTableData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTests.checkExelFileSelection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTests.checkRadioButtons.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTests.checkRedirect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoTestsSecondPart.checkPopUpAppearTime.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SliderTest.testSlider.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.DemoTestSecondPart">
     <configuration name="DemoTestSecondPart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
@@ -202,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718091229967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change git ignore">
+      <option name="closed" value="true" />
+      <created>1718188407080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718188407080</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +217,7 @@
     <MESSAGE value="added homework #14" />
     <MESSAGE value="added homework #15" />
     <MESSAGE value="fix homework #15" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix homework #15" />
+    <MESSAGE value="change git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="change git ignore" />
   </component>
 </project>
