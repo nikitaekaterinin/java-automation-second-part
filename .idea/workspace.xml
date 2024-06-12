@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a44ff967-54a0-4be0-a9b7-185014b42dc8" name="Changes" comment="added homework #14">
+    <list default="true" id="a44ff967-54a0-4be0-a9b7-185014b42dc8" name="Changes" comment="fix homework #15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/homework14/DemoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/homework14/DemoTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -35,93 +34,110 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.DemoQaTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoTests.checkAddTableData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoTests.checkExelFileSelection.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoTests.checkRadioButtons.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoTests.checkRedirect.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SliderTest.executor": "Run",
+    "JUnit.DemoQaTest.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkConfirmBox.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkEnterTextOnPopup.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkMenu.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkMenuHover.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkModalExtinction.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkPopUpAppearTime.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkPopupClosing.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkPopupExtinction.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkPromptBox.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkSlider.executor": "Run",
+    "JUnit.DemoTestSecondPart.checkopupClosing.executor": "Run",
+    "JUnit.DemoTestSecondPart.checksmth.executor": "Run",
+    "JUnit.DemoTestSecondPart.executor": "Run",
+    "JUnit.DemoTestSecondPart.testSlider.executor": "Run",
+    "JUnit.DemoTests.checkAddTableData.executor": "Run",
+    "JUnit.DemoTests.checkExelFileSelection.executor": "Run",
+    "JUnit.DemoTests.checkRadioButtons.executor": "Run",
+    "JUnit.DemoTests.checkRedirect.executor": "Run",
+    "JUnit.DemoTests.executor": "Run",
+    "JUnit.DemoTestsSecondPart.checkPopUpAppearTime.executor": "Run",
+    "JUnit.SliderTest.testSlider.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.DemoTests.checkExelFileSelection">
-    <configuration name="DemoQaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.DemoTestSecondPart">
+    <configuration name="DemoTestSecondPart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework14.*" />
+          <option name="PATTERN" value="org.example.homework15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.homework14" />
-      <option name="MAIN_CLASS_NAME" value="org.example.homework14.DemoQaTest" />
+      <option name="PACKAGE_NAME" value="org.example.homework15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework15.DemoTestSecondPart" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTests.checkAddTableData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTestSecondPart.checkEnterTextOnPopup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework14.*" />
+          <option name="PATTERN" value="org.example.homework15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.homework14" />
-      <option name="MAIN_CLASS_NAME" value="org.example.homework14.DemoTests" />
-      <option name="METHOD_NAME" value="checkAddTableData" />
+      <option name="PACKAGE_NAME" value="org.example.homework15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework15.DemoTestSecondPart" />
+      <option name="METHOD_NAME" value="checkEnterTextOnPopup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTests.checkExelFileSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTestSecondPart.checkPopupClosing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework14.*" />
+          <option name="PATTERN" value="org.example.homework15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.homework14" />
-      <option name="MAIN_CLASS_NAME" value="org.example.homework14.DemoTests" />
-      <option name="METHOD_NAME" value="checkExelFileSelection" />
+      <option name="PACKAGE_NAME" value="org.example.homework15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework15.DemoTestSecondPart" />
+      <option name="METHOD_NAME" value="checkPopupClosing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTests.checkRadioButtons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTestSecondPart.checkopupClosing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework14.*" />
+          <option name="PATTERN" value="org.example.homework15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.homework14" />
-      <option name="MAIN_CLASS_NAME" value="org.example.homework14.DemoTests" />
-      <option name="METHOD_NAME" value="checkRadioButtons" />
+      <option name="PACKAGE_NAME" value="org.example.homework15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework15.DemoTestSecondPart" />
+      <option name="METHOD_NAME" value="checkopupClosing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTests.checkRedirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTestSecondPart.checksmth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-automation-second-part" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homework14.*" />
+          <option name="PATTERN" value="org.example.homework15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.homework14" />
-      <option name="MAIN_CLASS_NAME" value="org.example.homework14.DemoTests" />
-      <option name="METHOD_NAME" value="checkRedirect" />
+      <option name="PACKAGE_NAME" value="org.example.homework15" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework15.DemoTestSecondPart" />
+      <option name="METHOD_NAME" value="checksmth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoTests.checkExelFileSelection" />
-        <item itemvalue="JUnit.DemoTests.checkAddTableData" />
-        <item itemvalue="JUnit.DemoTests.checkRadioButtons" />
-        <item itemvalue="JUnit.DemoTests.checkRedirect" />
-        <item itemvalue="JUnit.DemoQaTest" />
+        <item itemvalue="JUnit.DemoTestSecondPart" />
+        <item itemvalue="JUnit.DemoTestSecondPart.checkEnterTextOnPopup" />
+        <item itemvalue="JUnit.DemoTestSecondPart.checkopupClosing" />
+        <item itemvalue="JUnit.DemoTestSecondPart.checkPopupClosing" />
+        <item itemvalue="JUnit.DemoTestSecondPart.checksmth" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +186,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717877295146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added homework #15">
+      <option name="closed" value="true" />
+      <created>1718053771823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718053771823</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix homework #15">
+      <option name="closed" value="true" />
+      <created>1718091229967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718091229967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed POM and gitignore files" />
     <MESSAGE value="fix" />
     <MESSAGE value="added homework #14" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homework #14" />
+    <MESSAGE value="added homework #15" />
+    <MESSAGE value="fix homework #15" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix homework #15" />
   </component>
 </project>
