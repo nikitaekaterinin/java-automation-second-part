@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
-
     private static final String PROPERTY_FILE_PATH = "src/main/resources/app.properties";
+
     private Properties properties;
 
     public ConfigFileReader() {

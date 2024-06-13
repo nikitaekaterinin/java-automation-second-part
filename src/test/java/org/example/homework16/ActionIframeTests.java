@@ -21,8 +21,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class ActionIframeTests {
-    WebDriver driver;
-    JavascriptExecutor js;
     private static final By INTERACTIONS_CARD = By.xpath("//div[@class='card-body']/h5[text()='Interactions']");
     private static final By DROP_MENU = By.xpath("//span[@class='text' and text()='Droppable']");
     private static final By DRAGGABLE = By.id("draggable");
@@ -32,6 +30,9 @@ public class ActionIframeTests {
     private static final By PARENT_FRAME = By.id("frame1");
     private static final By CHILD_FRAME = By.xpath("//body/iframe");
     private static final By CHILD_FRAME_TEXT = By.xpath("//body/p");
+
+    WebDriver driver;
+    JavascriptExecutor js;
 
     @Test
     @DisplayName("Сheck element colour changing after drag&drop")
