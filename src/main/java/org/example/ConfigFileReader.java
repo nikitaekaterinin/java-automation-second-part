@@ -1,12 +1,8 @@
 package org.example;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 
 public class ConfigFileReader {
@@ -33,12 +29,5 @@ public class ConfigFileReader {
 
     public String getBaseUrl() {
         return getProperty("base.url");
-    }
-
-    public WebDriver getDriver() {
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        return driver;
     }
 }

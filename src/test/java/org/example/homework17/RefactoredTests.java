@@ -1,5 +1,6 @@
 package org.example.homework17;
 
+import org.example.demoqa.Pages.BasePage;
 import org.example.ConfigFileReader;
 import org.example.demoqa.Pages.MainPage;
 import org.example.demoqa.Pages.ElementsPage;
@@ -65,7 +66,7 @@ public class RefactoredTests {
     @BeforeEach
     void setup() {
         WebDriverConfig = new ConfigFileReader();
-        driver = WebDriverConfig.getDriver();
+        driver = BasePage.getDriver();
         driver.get(WebDriverConfig.getBaseUrl());
 
         mainPage = new MainPage(driver);

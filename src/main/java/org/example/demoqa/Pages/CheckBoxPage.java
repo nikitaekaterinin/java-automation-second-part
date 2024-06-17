@@ -3,7 +3,6 @@ package org.example.demoqa.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 
 public class CheckBoxPage extends BasePage {
 
@@ -14,7 +13,6 @@ public class CheckBoxPage extends BasePage {
 
     public CheckBoxPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
     public void toggleHome() {
